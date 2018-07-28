@@ -1,0 +1,24 @@
+@import demo.models.*
+@args List<Item> items
+<html>
+<body>
+@for(Item item: items) {
+
+<div>
+    <div>Name: @item.name</div>
+    <div>Price: @item.price</div>
+    <div>Keywords:
+        @for(String keyword in item.keywords) {
+            <span>@keyword</span>
+        }
+    </div>
+    <ul>
+    @for(Feature feature: item.features) {
+        <li>Feature: @feature.description</li>
+    }
+    </ul>
+</div>
+
+}
+</body>
+</html>

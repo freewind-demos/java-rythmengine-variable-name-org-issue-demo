@@ -13,6 +13,11 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>org.rythmengine</groupId>
+            <artifactId>rythm-engine</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.11</version>
@@ -30,7 +35,7 @@
         <dependency>
             <groupId>freewind.github</groupId>
             <artifactId>lost-list-creator</artifactId>
-            <version>0.1.0</version>
+            <version>0.5.4</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
